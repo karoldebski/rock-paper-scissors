@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 1080px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.title {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 3rem;
+    font-weight: 1000;
+    opacity: 0.8;
+    
+}
+
+
+.summary {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+
+.selection button {
+    background: transparent;
+    border-style: none;
+    border: 30px;
+}
+
+
+.selection svg {
+    height: 150px;
+    margin-bottom: 50px;
+}
+
+.selection button svg:hover path, .selection button svg:active path {
+    fill: red;
+}
+
+.gamestatus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh
+}
+.reload {
+
+}
